@@ -1,15 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
+import CollectPersonalData from "./pages/CollectPersonalData";
 import App from "./pages/App";
 
 const router = createBrowserRouter([
-    {
-        path:"/",
-        element:<App />
-    },
-    {
-        path:"/asdf",
-        element:<span>THIS IS ASDF</span>
-    }
-])
+  {
+    path: "/",
+    element: <CollectPersonalData />,
+  },
+  // {
+  //   path: "/",
+  //   element: <App />,
+  // },
+]);
 
 export default router;
