@@ -1,16 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
-import CollectPersonalData from "./pages/CollectPersonalData";
+import SignUp from "./pages/SignUp";
 import App from "./pages/App";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <CollectPersonalData />,
+    path: "/SignUp",
+    element: <SignUp />,
   },
-  // {
-  //   path: "/",
-  //   element: <App />,
-  // },
+  {
+    path: "/",
+    element: <App />,
+  },
 ]);
 
 export default router;

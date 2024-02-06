@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
-import Terms from "./common/Terms";
-import { SignUpContext } from "./SignUpContext";
+import Terms from "../common/Terms";
+import { SignUpContext } from "../context/SignUpContext";
 import styled from "styled-components";
 
 export default function TermsBox() {
@@ -22,5 +22,6 @@ const Box = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  /* background-color: bisque; */
   /* position: relative; */
 `;

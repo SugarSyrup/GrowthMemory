@@ -1,7 +1,6 @@
 import { useContext, useEffect } from "react";
-import { FiCheck } from "react-icons/fi";
 import styled from "styled-components";
-import { SignUpContext } from "../SignUpContext";
+import { SignUpContext } from "../context/SignUpContext";
 export default function Terms(props) {
   const { setAgreement, updateIsChecked, isChecked } =
     useContext(SignUpContext);
@@ -40,7 +39,7 @@ export default function Terms(props) {
 
 const Box = styled.div`
   /* margin-bottom: 5px; */
-  width: 312px;
+  width: 293px;
   height: 86px;
 `;
 const Header = styled.div`
@@ -77,5 +76,6 @@ const TextBox = styled.div`
   border-radius: 5.707px;
   border: 1px solid #e3e3e3;
   font-size: 11px;
+  line-height: 17px;
   overflow: hidden;
 `;
