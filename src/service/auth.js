@@ -34,6 +34,7 @@ export const onSignOut = async () => {
     }
 };
 
+//닉네임 중복 기능 불필요
 export const setDisplayName = async (displayName) => {
     updateProfile(auth.currentUser, {
         displayName: displayName,

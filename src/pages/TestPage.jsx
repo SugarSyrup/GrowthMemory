@@ -10,8 +10,8 @@ export default function TestPage() {
             <input ref={inputRef}></input>
             <button
                 onClick={() => {
-                    console.log(inputRef.current.value);
-                    console.log(auth.currentUser.uid);
+                    //console.log(inputRef.current.value);
+                    //console.log(auth.currentUser.uid);
                     dodo();
                 }}
             >
