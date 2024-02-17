@@ -44,3 +44,7 @@ export const setDisplayName = async (displayName) => {
             console.log(error);
         });
 };
+
+export const getUID = () => {
+    return auth.currentUser.uid;
+}
